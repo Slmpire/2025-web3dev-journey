@@ -157,7 +157,46 @@ body {
     }
     .project-container{
         background-color: #d8dadf;
-        max-width: 600px;
+        max-width: 7
+        \m00px;
+        margin: 20px -10px;
+        padding: 20px;
+    }
+    .project{
+        background-color: white;
+        padding: 20px;
+        margin: 10px;
+        border-radius: 5px;
+    }
+}
+@media screen and (min-width : 868px){
+    .profile-container {
+        max-width: 400px;
+        margin: auto 10px;
+        padding: 20px;
+    }
+    .project-container{
+        background-color: #d8dadf;
+        max-width: auto;
+        margin: 20px -10px;
+        padding: 20px;
+    }
+    .project{
+        background-color: white;
+        padding: 20px;
+        margin: 10px;
+        border-radius: 5px;
+    }
+}
+@media screen and (min-width : 998px){
+    .profile-container {
+        max-width: 400px;
+        margin: auto 10px;
+        padding: 20px;
+    }
+    .project-container{
+        background-color: #d8dadf;
+        min-width: auto;
         margin: 20px -10px;
         padding: 20px;
     }
